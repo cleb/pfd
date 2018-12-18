@@ -1,0 +1,18 @@
+.frame {
+  position: relative;
+}
+.picture {
+  position: absolute;
+}
+
+.picture .inputs {
+  z-index: 3;
+}
+
+.picture img {
+  z-index: 1;
+}
+
+.frame-picture .picture img {
+  z-index: 2;
+}

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.frame {
+  position: relative;
+}
+
+.picture {
+  position: absolute;
+}
+
+  .picture .inputs {
+    z-index: 3;
+    position: relative;
+  }
+
+  .picture img {
+    z-index: 1;
+  }
+
+.frame-picture .picture img {
+  z-index: 2;
+}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Picture } from './picture';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pfd';
+  pictures: Picture[] = [];
+  addImage() {
+    this.pictures.push({ src: '', type: 0 });
+  }
 }
